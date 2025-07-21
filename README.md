@@ -3,7 +3,17 @@
 
 ### Требования
 
-Должен быть установлены в системе `python3` и `git`
+Должны быть установлены в системе `python3` и `git`
+
+### Установка
+
+```bash
+git clone git@github.com:lovinervy/words-helper.git
+cd ./words-helper
+git submodule init
+git submodule update
+chmod +x ./words-helper.py 
+```
 
 ### Принцип работы
 
